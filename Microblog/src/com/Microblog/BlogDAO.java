@@ -36,9 +36,9 @@ public class BlogDAO {
     }
 
     private static void initEmps() {
-        Blog blog1 = new Blog(1, "this is a blog post",0);
-        Blog blog2 = new Blog(2, "this is a blog post 2",0);
-        Blog blog3 = new Blog(3, "this is a blog post 3",0);
+        Blog blog1 = new Blog(1, "this is a blog post",3);
+        Blog blog2 = new Blog(2, "this is a blog post 2",1);
+        Blog blog3 = new Blog(3, "this is a blog post 3", 4);
 
         blogMap.put(blog1.getBlogId(), blog1);
         blogMap.put(blog2.getBlogId(), blog2);
